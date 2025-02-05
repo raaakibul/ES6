@@ -32,6 +32,8 @@ console.log(billGates.title); // Co-founder of Microsoft
 console.log(billGates.netWorth); // 110 $billion USD
 console.log(billGates.company); // Microsoft;
 
+console.log(billGates);
+
 var steveJobs = {
     name: 'Steve Jobs',
     age: 56,
@@ -48,7 +50,7 @@ var steveJobs = {
         color: 'black',
         size: 'M',
         price: '100 USD',
-    }
+    },
 }
 console.log(steveJobs);
 console.log(steveJobs.shirt.color);
