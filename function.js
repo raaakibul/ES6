@@ -36,3 +36,19 @@ console.log(add(...numbers)); // 15
 // function with arrow function
 var add = (a, b) => a + b;
 console.log(add(1, 2)); // 3
+
+
+function one(){
+    return 1;
+}
+function two(){
+    return 2;
+}
+console.log(one() + two()); // 3
+
+// anonymous function
+
+var add = function(a, b) {
+    return a + b;
+}
+console.log(add(1, 2)); // 3
