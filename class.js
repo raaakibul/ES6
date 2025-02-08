@@ -13,3 +13,17 @@ class person{
 
 var obj = new person('Rahim', 25);
 obj.show();
+
+class addition{
+    constructor(a, b){
+        this.a = a;
+        this.b = b;
+    }
+
+    sum(){
+        return this.a + this.b;
+    }
+}
+
+var add = new addition(10, 20);
+console.log(add.sum());
